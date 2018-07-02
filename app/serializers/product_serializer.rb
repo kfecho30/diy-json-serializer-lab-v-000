@@ -5,7 +5,7 @@ class ProductSerializer
     sp += '"id": ' + p.id.to_s + ', '
     sp += '"name": "' + p.name+ '", '
     sp += '"price": "' +p.price.to_s+ '",'
-    sp += '"inventory": ' + product.inventory.to_s + ', '
+    sp += '"inventory": ' + p.inventory.to_s + ', '
     sp += '"description": "' + p.description + '"'
     sp += '}'
 
