@@ -10,5 +10,3 @@ class ProductSerializer
     sp += '}'
   end
 end
-
-name, price, inventory and description
